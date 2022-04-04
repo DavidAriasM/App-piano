@@ -114,13 +114,34 @@ export default {
         flex-direction: column;
         justify-content: center;
         margin-top: -5%;
-        margin-right:-23% ;
+        margin-right:-23%;
     }
     .semi1,.semi2,.semi3,.semi4,.semi5,.semi6,.semi7{
         width: 100%;
         height: 8%;
+        margin-top: 8%;
+        margin-bottom: 3%;
+     }
+}
+
+@media (max-width:500px){
+
+    .semi1,.semi2,.semi3,.semi4,.semi5,.semi6,.semi7{
         margin-top: 10%;
         margin-bottom: 4%;
+     }
+}
+
+@media (max-width:400px){
+
+    .semi-tonos{
+        margin-top: 1%;
+        margin-right:-18% ;
+    }
+
+    .semi1,.semi2,.semi3,.semi4,.semi5,.semi6,.semi7{
+        margin-top: 10%;
+        margin-bottom: 8%;
      }
 }
 
